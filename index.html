@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Systematic Review & Meta-Analysis Workshop | Beginner to Expert</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+        }
+
+        .speaker-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+
+        .price-card:hover {
+            transform: scale(1.05);
+        }
+
+        .animate-pulse-slow {
+            animation: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+
+        @keyframes pulse {
+
+            0%,
+            100% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.8;
+            }
+        }
+    </style>
+</head>
+
+<body class="font-sans antialiased text-gray-800">
+    <!-- Header/Navigation -->
+    <header class="sticky top-0 z-50 gradient-bg text-white shadow-lg" style="background: white;">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-2">
+                    <img src="assets/img/logo/logo4-removebg-preview.png" alt="" style="width: 20%;">
+                </div>
+                <nav class="hidden md:flex space-x-8" style="color: black; align-items: center;">
+                    <a href="index.html" class="hover:text-indigo-200 font-medium">Home</a>
+                    <a href="#about-us" class="hover:text-indigo-200 font-medium">About</a>
+                    <a href="#curriculum" class="hover:text-indigo-200 font-medium">Curriculum</a>
+                    <a href="#fees" class="hover:text-indigo-200 font-medium">Plans</a>
+                    <a href="https://wa.me/919876543210" target="_blank" class="hover:text-indigo-200 font-medium"
+                        style="background: #4f46e5; padding: 8px 23px; border-radius: 16px; color: white;">Contact</a>
+                </nav>
+                <button class="md:hidden focus:outline-none">
+                    <i class="fas fa-bars text-2xl" style="color: black;"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="gradient-bg text-white py-20">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-10 md:mb-0">
+                <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-6">
+                    Systematic Review & Meta-Analysis<br>
+                    <span class="text-indigo-200">Beginner to Expert Workshop</span>
+                </h1>
+                <p class="text-xl mb-8 text-indigo-100">
+                    Master the art of evidence synthesis with our comprehensive workshop led by world-class researchers.
+                </p>
+                <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                    <button
+                        class="bg-white text-indigo-600 hover:bg-indigo-100 px-8 py-3 rounded-full font-bold transition duration-300">
+                        Register Now
+                    </button>
+                    <a href="assets/img/brochure/Systematic Review and Meta-Analysis A  Beginner-to-Expert Workshop (1).pdf" download class="border-2 border-white text-white hover:bg-white hover:text-indigo-600 px-8 py-3 rounded-full font-bold transition duration-300">
+                        Download Brochure</a>
+                </div>
+            </div>
+            <div class="md:w-1/2 flex justify-center">
+                <div class="relative">
+                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+                        alt="Workshop" class="rounded-lg shadow-2xl w-full max-w-md">
+                    <div
+                        class="absolute -bottom-6 -right-6 bg-yellow-400 text-gray-900 px-6 py-2 rounded-full shadow-lg font-bold animate-pulse-slow">
+                        Early Bird Discount!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us -->
+    <section class="py-16 bg-gray-50" id="about-us">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">About BioDesk Research Ecosystem</h2>
+                <div class="w-24 h-1 bg-indigo-600 mx-auto"></div>
+            </div>
+
+            <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition duration-300 max-w-4xl mx-auto">
+                <div class="text-indigo-600 mb-4 text-center">
+                    <i class="fas fa-users text-4xl"></i>
+                </div>
+                <p class="text-gray-700 text-lg leading-relaxed">
+                    The BioDesk Research Ecosystem is a collaborative initiative designed to support researchers in
+                    producing high-quality, evidence-based research and publishing in high-impact journals. We recognize
+                    the challenges faced by researchers and are committed to empowering them with the resources and
+                    guidance needed to achieve world-class recognition. Our goal is to promote a culture of rigorous,
+                    evidence-based research that contributes meaningfully to the global scientific community.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Workshop Details -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Workshop Overview</h2>
+                <div class="w-24 h-1 bg-indigo-600 mx-auto"></div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-10">
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition duration-300">
+                    <div class="text-indigo-600 mb-4">
+                        <i class="fas fa-calendar-alt text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Duration</h3>
+                    <p class="text-gray-600">4-week intensive program with 16 hours of live sessions and 20+ hours of
+                        self-paced learning.</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition duration-300">
+                    <div class="text-indigo-600 mb-4">
+                        <i class="fas fa-laptop-code text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Format</h3>
+                    <p class="text-gray-600">Hybrid learning with live Zoom sessions, recorded lectures, and hands-on
+                        practical exercises.</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition duration-300">
+                    <div class="text-indigo-600 mb-4">
+                        <i class="fas fa-certificate text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Certification</h3>
+                    <p class="text-gray-600"> All participants receive an e-certificate upon successful completion</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Curriculum -->
+    <section class="py-16" id="curriculum">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Workshop Curriculum</h2>
+                <div class="w-24 h-1 bg-indigo-600 mx-auto"></div>
+            </div>
+
+            <div class="grid md:grid-cols-1 gap-8 max-w-4xl mx-auto">
+                <!-- Day 1 -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                    <div class="gradient-bg p-6 text-white">
+                        <h3 class="text-xl font-bold">Day 1: Foundations of Systematic Review</h3>
+                    </div>
+                    <div class="p-6">
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                                <span>Introduction to systematic review and meta-analysis: evidence-based
+                                    practice.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                                <span>History and evolution of SR/MA.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                                <span>Benefits of conducting systematic reviews for students, researchers, and
+                                    clinicians.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                                <span>Introduction to essential tools and platforms including:
+                                    <br> • OSF (Open Science Framework): setting up an account, why open science
+                                    matters.
+                                    <br> • PROSPERO: navigating the interface, preparing for protocol registration.
+                                    <br> • RevMan (Cochrane software): a quick preview of how data is synthesized.
+                                    <br> • R and Python: introducing the relevance of coding for meta-analysis.
+                                    <br> • Rayyan: creating a new project, uploading citations, collaborative screening.
+                                </span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                                <span>Deep dive into review frameworks including:
+                                    <br> • What is a Scoping Review, how it differs from a systematic review, and when
+                                    it is useful.
+                                    <br> • Exploring PICO, PICOS, SPIDER frameworks with real examples.
+                                </span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                                <span>Participants will practice formulating their own research questions using PICO
+                                    live.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Day 2 -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                    <div class="gradient-bg p-6 text-white">
+                        <h3 class="text-xl font-bold">Day 2: Protocol Writing, Search & Extraction</h3>
+                    </div>
+                    <div class="p-6">
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                                <span>Protocol Development:
+                                    <br> • Structuring a protocol document.
+                                    <br> • Using PRISMA-P items for a quality protocol.
+                                    <br> • Writing objectives, inclusion/exclusion criteria, methods section.
+                                </span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                                <span>Registering Protocols:
+                                    <br> • Live demonstration of submitting a protocol to OSF.
+                                    <br> • Navigating the PROSPERO registration form and required information.
+                                </span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                                <span>Literature Search:
+                                    <br> • Building search strategies using Boolean operators.
+                                    <br> • Conducting a live search in PubMed.
+                                    <br> • Exporting results into reference managers like Zotero/EndNote.
+                                </span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                                <span>Study Screening:
+                                    <br> • Uploading citations into Rayyan.
+                                    <br> • Demonstrating blinding, inclusion/exclusion, conflict resolution in
+                                    screening.
+                                </span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                                <span>Data Extraction:
+                                    <br> • Creating a custom extraction sheet in Excel/Google Sheets.
+                                    <br> • Demonstrating how to extract author, year, sample size, effect measures,
+                                    outcomes.
+                                </span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                                <span>Participants will work with an example dataset provided, mirroring real-world
+                                    research data to ensure authenticity.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Day 3 -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                    <div class="gradient-bg p-6 text-white">
+                        <h3 class="text-xl font-bold">Day 3: Meta-Analysis & Result Interpretation</h3>
+                    </div>
+                    <div class="p-6">
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                                <span>Running a Meta-Analysis in RevMan:
+                                    <br> • Inputting data into RevMan.
+                                    <br> • Generating Forest Plots.
+                                    <br> • Interpreting effect sizes, confidence intervals.
+                                    <br> • Performing subgroup analyses.
+                                </span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                                <span>Exploring Meta-Analysis in R:
+                                    <br> • Installing necessary R packages (meta, metafor).
+                                    <br> • Running a basic meta-analysis.
+                                    <br> • Viewing Forest Plots and heterogeneity statistics.
+                                </span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                                <span>Interpreting Outputs:
+                                    <br> • Understanding Forest Plot findings.
+                                    <br> • Interpreting Funnel Plots for publication bias.
+                                    <br> • Explaining Egger’s Test, trim-and-fill methods.
+                                    <br> • Discussing fixed-effect vs random-effects models.
+                                </span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                                <span>Reporting Results:
+                                    <br> • Learning how to write Results and Discussion sections.
+                                    <br> • Connecting meta-analysis outputs with narrative interpretation.
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Key Speakers -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Meet Our Expert Faculty</h2>
+                <div class="w-24 h-1 bg-indigo-600 mx-auto"></div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-10">
+
+                 <!-- Speaker 1 -->
+                 <div class="bg-white rounded-xl overflow-hidden shadow-md speaker-card transition duration-500">
+                    <div class="overflow-hidden">
+                        <img src="assets/img/profiles/4.jpg"
+                            alt="Dr. Priya Patel" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-1">Prof. Delna N S</h3>
+                        <p class="text-indigo-600 font-medium mb-3">Director and Founder BioDeskINDIA Labs</p>
+                        <p class="text-gray-600 mb-4">HOD- Department of Allied Health Sciences, Al-Azhar Medical College and Super Speciality Hospital </p>
+                        <div class="flex space-x-4">
+                            <a href="https://www.linkedin.com/in/delna-ns-a8183215a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="text-blue-500 hover:text-blue-700">
+                                <i class="fab fa-linkedin text-xl"></i>
+                            </a>
+                            <a href="#" class="text-gray-700 hover:text-gray-900">
+                                <i class="fas fa-globe text-xl"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Speaker 2 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-md speaker-card transition duration-500">
+                    <div class="overflow-hidden">
+                        <img src="assets/img/profiles/1.jpg"
+                            alt="Dr. Sarah Johnson" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-1">Akshay V P
+                        </h3>
+                        <p class="text-indigo-600 font-medium mb-3">Research Coordinator 
+                            BioDeskINDIA Labs</p>
+                        <p class="text-gray-600 mb-4">With over 50 published systematic reviews, Dr. Johnson is a
+                            leading expert in evidence synthesis methods.</p>
+                        <div class="flex space-x-4">
+                            <a href="https://www.linkedin.com/in/akshay-v-p-bb414624a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="text-blue-500 hover:text-blue-700">
+                                <i class="fab fa-linkedin text-xl"></i>
+                            </a>
+                            <a href="#" class="text-gray-700 hover:text-gray-900">
+                                <i class="fas fa-globe text-xl"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <!-- Speaker 3 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-md speaker-card transition duration-500">
+                    <div class="overflow-hidden">
+                        <img src="assets/img/profiles/3.jpg"
+                            alt="Dr. Priya Patel" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-1">Dr. Bhavit Bansal
+                        </h3>
+                        <p class="text-indigo-600 font-medium mb-3">Senior Research Fellow</p>
+                        <p class="text-gray-600 mb-4">Department of Research, Central Council for Research in Yoga & Naturopathy.</p>
+                        <div class="flex space-x-4">
+                            <a href="https://www.linkedin.com/in/dr-bhavit-bansal-655011133?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="text-blue-500 hover:text-blue-700">
+                                <i class="fab fa-linkedin text-xl"></i>
+                            </a>
+                            <a href="#" class="text-gray-700 hover:text-gray-900">
+                                <i class="fas fa-globe text-xl"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+               
+                <!-- Speaker 4 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-md speaker-card transition duration-500">
+                    <div class="overflow-hidden">
+                        <img src="assets/img/profiles/5.jpg"
+                            alt="Dr. Priya Patel" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-1">Dr. Priya Patel</h3>
+                        <p class="text-indigo-600 font-medium mb-3">Clinical Researcher & Editor</p>
+                        <p class="text-gray-600 mb-4">Former journal editor with extensive experience in publishing
+                            systematic reviews in high-impact journals.</p>
+                        <div class="flex space-x-4">
+                            <a href="#" class="text-blue-500 hover:text-blue-700">
+                                <i class="fab fa-linkedin text-xl"></i>
+                            </a>
+                            <a href="#" class="text-gray-700 hover:text-gray-900">
+                                <i class="fas fa-globe text-xl"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Speaker 5 -->
+                <div class="h-42 bg-white rounded-xl overflow-hidden shadow-md speaker-card transition duration-500">
+                    <div class="overflow-hidden">
+                        <img src="assets/img/profiles/2.jpg"
+                            alt="Dr. Michael Chen" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-1">Shubrith Shrivastava
+                        </h3>
+                        <p class="text-indigo-600 font-medium mb-3">Research Coordinator
+                            BioDeskINDIA Labs
+                            </p>
+                        <p class="text-gray-600 mb-4">Specializing in advanced statistical methods for meta-analysis
+                            with expertise in R and Stata programming.</p>
+                        <div class="flex space-x-4">
+                            <a href="#" class="text-blue-500 hover:text-blue-700">
+                                <i class="fab fa-linkedin text-xl"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/shubhrit-shrivastava-579956233?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="text-gray-700 hover:text-gray-900">
+                                <i class="fas fa-globe text-xl"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="py-16" id="fees">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Workshop Fees</h2>
+                <div class="w-24 h-1 bg-indigo-600 mx-auto"></div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-10 max-w-4xl mx-auto">
+                <!-- Early Bird Plan -->
+                <div class="bg-white rounded-xl shadow-xl overflow-hidden price-card transition duration-500">
+                    <div class="gradient-bg p-6 text-white text-center">
+                        <h3 class="text-xl font-bold">Early Bird Fee till May 30</h3>
+                    </div>
+                    <div class="p-8 text-center">
+                        <ul class="space-y-4 mb-8">
+                            <li class="text-lg font-semibold">For Indian researchers: ₹859/-</li>
+                            <li class="text-lg font-semibold">International researchers: $10</li>
+                        </ul>
+                        <button
+                            class="w-full gradient-bg hover:opacity-90 text-white font-bold py-3 px-4 rounded-full transition duration-300">
+                            Register Now
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Regular Fee Plan -->
+                <div
+                    class="bg-white rounded-xl shadow-xl overflow-hidden price-card transition duration-500 border-2 border-indigo-500 relative">
+                    <div class="gradient-bg p-6 text-white text-center">
+                        <h3 class="text-xl font-bold">Fee after May 30</h3>
+                    </div>
+                    <div class="p-8 text-center">
+                        <ul class="space-y-4 mb-8">
+                            <li class="text-lg font-semibold">For Indian researchers: ₹1299/-</li>
+                            <li class="text-lg font-semibold">International researchers: $15</li>
+                        </ul>
+                        <button
+                            class="w-full gradient-bg hover:opacity-90 text-white font-bold py-3 px-4 rounded-full transition duration-300">
+                            Register Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-12 text-center">
+                <p class="text-gray-600 mb-4">Limited slots available – Register early to save your spot!</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Testimonials -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">What Participants Say</h2>
+                <div class="w-24 h-1 bg-indigo-600 mx-auto"></div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-6">"This workshop transformed my approach to research. I published my
+                        first systematic review within 3 months of completing the course!"</p>
+                    <div class="flex items-center">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80"
+                            alt="Emma S." class="w-12 h-12 rounded-full mr-4 object-cover">
+                        <div>
+                            <h4 class="font-bold">Emma S.</h4>
+                            <p class="text-gray-500 text-sm">PhD Candidate, Public Health</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-6">"The hands-on approach with real datasets was invaluable. The
+                        instructors were incredibly knowledgeable and supportive throughout."</p>
+                    <div class="flex items-center">
+                        <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80"
+                            alt="David L." class="w-12 h-12 rounded-full mr-4 object-cover">
+                        <div>
+                            <h4 class="font-bold">David L.</h4>
+                            <p class="text-gray-500 text-sm">Medical Resident</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-6">"As a beginner, I appreciated how the content was structured from
+                        basic to advanced concepts. The R programming sessions were particularly helpful."</p>
+                    <div class="flex items-center">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80"
+                            alt="Priya K." class="w-12 h-12 rounded-full mr-4 object-cover">
+                        <div>
+                            <h4 class="font-bold">Priya K.</h4>
+                            <p class="text-gray-500 text-sm">Research Assistant</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="gradient-bg text-white py-20">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">Ready to Master Systematic Reviews?</h2>
+            <p class="text-xl mb-10 max-w-2xl mx-auto text-indigo-100">
+                Join our next cohort and gain the skills to conduct high-quality evidence synthesis for your research.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6">
+                <button
+                    class="bg-white text-indigo-600 hover:bg-indigo-100 px-8 py-4 rounded-full font-bold text-lg transition duration-300 shadow-lg">
+                    <i class="fas fa-user-plus mr-2"></i> Register Now
+                </button>
+                <button
+                    class="border-2 border-white text-white hover:bg-white hover:text-indigo-600 px-8 py-4 rounded-full font-bold text-lg transition duration-300 shadow-lg">
+                    <i class="fas fa-question-circle mr-2"></i> Have Questions?
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-4 gap-10">
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <img src="assets/img/logo/logo4-removebg-preview.png" alt="" style="width: 60%;">
+                    </div>
+                    <p class="text-gray-400">
+                        Empowering researchers with high-quality training in evidence synthesis methods since 2015.
+                    </p>
+                    <div class="flex space-x-4 mt-6">
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-twitter text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-linkedin text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-facebook text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-youtube text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">Upcoming Workshops</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Online Courses</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Consulting Services</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Research Resources</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Blog</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Support</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">FAQs</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Help Center</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Terms of Service</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Privacy Policy</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Refund Policy</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Contact Us</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-3"></i>
+                            <span>Flat No: S-03 (A- Block) Balaji Parisar phase-1
+                                Ayodhya Bypass Road Bhopal Madhya Pradesh </span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-envelope mt-1 mr-3"></i>
+                            <span>info@researchworks.com</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-phone-alt mt-1 mr-3"></i>
+                            <span>+91 9745457729</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 Biodesk. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Simple JavaScript for mobile menu toggle
+        document.addEventListener('DOMContentLoaded', function () {
+            const mobileMenuButton = document.querySelector('button[class*="md:hidden"]');
+            const mobileMenu = document.querySelector('nav[class*="md:flex"]');
+
+            mobileMenuButton.addEventListener('click', function () {
+                mobileMenu.classList.toggle('hidden');
+                mobileMenu.classList.toggle('flex');
+                mobileMenu.classList.toggle('flex-col');
+                mobileMenu.classList.toggle('absolute');
+                mobileMenu.classList.toggle('top-16');
+                mobileMenu.classList.toggle('left-0');
+                mobileMenu.classList.toggle('right-0');
+                mobileMenu.classList.toggle('bg-indigo-700');
+                mobileMenu.classList.toggle('p-4');
+                mobileMenu.classList.toggle('space-y-4');
+                mobileMenu.classList.toggle('space-x-8');
+            });
+
+            // Smooth scrolling for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
