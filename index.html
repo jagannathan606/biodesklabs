@@ -8,6 +8,8 @@
     <link rel="icon" type="image/png" href="assets/img/favicon/favicon.ico">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- SwiperJS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <style>
         .gradient-bg {
             background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
@@ -46,7 +48,8 @@
         <div class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
                 <div class="flex items-center space-x-2">
-                    <a href="index.html" class="hover:text-indigo-200 font-medium"><img src="assets/img/logo/logo4-removebg-preview.png" alt="" class="w-[35%] md:w-[20%]"></a>
+                    <a href="index.html" class="hover:text-indigo-200 font-medium"><img
+                            src="assets/img/logo/logo4-removebg-preview.png" alt="" class="w-[35%] md:w-[20%]"></a>
 
                 </div>
                 <nav class="hidden md:flex space-x-8" style="color: black; align-items: center;">
@@ -80,8 +83,10 @@
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSeuVkfTJDpSVfsJTPuuGDPNhcYl4F7pdqRUoL1yZANW7cYtvg/viewform?usp=sharing"
                         class="bg-white text-indigo-600 hover:bg-indigo-100 px-8 py-3 rounded-full font-bold transition duration-300">
                         Register Now
-                </a>
-                    <a href="assets/img/brochure/Systematic Review and Meta-Analysis A  Beginner-to-Expert Workshop (1).pdf" download class="border-2 border-white text-white hover:bg-white hover:text-indigo-600 px-8 py-3 rounded-full font-bold transition duration-300">
+                    </a>
+                    <a href="assets/img/brochure/Systematic Review and Meta-Analysis A  Beginner-to-Expert Workshop brochure.pdf"
+                        download
+                        class="border-2 border-white text-white hover:bg-white hover:text-indigo-600 px-8 py-3 rounded-full font-bold transition duration-300">
                         Download Brochure</a>
                 </div>
             </div>
@@ -135,7 +140,7 @@
                         <i class="fas fa-calendar-alt text-4xl"></i>
                     </div>
                     <h3 class="text-xl font-bold mb-3">Duration</h3>
-                    <p class="text-gray-600">3-Days intensive program with 16 hours of live sessions and 20+ hours of
+                    <p class="text-gray-600"><span class="text-red-600 font-medium mb-3">( July 11,12,13 2025)</span> 3-Days intensive program with 16 hours of live sessions and 20+ hours of
                         self-paced learning.</p>
                 </div>
 
@@ -144,7 +149,8 @@
                         <i class="fas fa-video text-4xl"></i>
                     </div>
                     <h3 class="text-xl font-bold mb-3"> Mode</h3>
-                    <p class="text-gray-600">Online (Zoom) – Hands-on 3-Day Workshop organized by BioDeskINDIA Research Ecosystem</p>
+                    <p class="text-gray-600">Online <span class="text-red-600 font-medium mb-3">(Zoom)</span>  – Hands-on 3-Day Workshop organized by BioDeskINDIA Research
+                        Ecosystem</p>
                 </div>
 
                 <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition duration-300">
@@ -152,7 +158,7 @@
                         <i class="fas fa-certificate text-4xl"></i>
                     </div>
                     <h3 class="text-xl font-bold mb-3">Certification</h3>
-                    <p class="text-gray-600"> All participants receive an e-certificate upon successful completion</p>
+                    <p class="text-gray-600"> All participants receive an <span class="text-red-600 font-medium mb-3">e-certificate</span> upon successful completion</p>
                 </div>
             </div>
         </div>
@@ -170,7 +176,7 @@
                 <!-- Day 1 -->
                 <div class="bg-white rounded-xl shadow-md overflow-hidden">
                     <div class="gradient-bg p-6 text-white">
-                        <h3 class="text-xl font-bold">Day 1: Foundations of Systematic Review</h3>
+                        <h3 class="text-xl font-bold">July 11 Day 1: Foundations of Systematic Review</h3>
                     </div>
                     <div class="p-6">
                         <ul class="space-y-3">
@@ -219,7 +225,7 @@
                 <!-- Day 2 -->
                 <div class="bg-white rounded-xl shadow-md overflow-hidden">
                     <div class="gradient-bg p-6 text-white">
-                        <h3 class="text-xl font-bold">Day 2: Protocol Writing, Search & Extraction</h3>
+                        <h3 class="text-xl font-bold">July 12 Day 2: Protocol Writing, Search & Extraction</h3>
                     </div>
                     <div class="p-6">
                         <ul class="space-y-3">
@@ -274,7 +280,7 @@
                 <!-- Day 3 -->
                 <div class="bg-white rounded-xl shadow-md overflow-hidden">
                     <div class="gradient-bg p-6 text-white">
-                        <h3 class="text-xl font-bold">Day 3: Meta-Analysis & Result Interpretation</h3>
+                        <h3 class="text-xl font-bold">July 12 Day 3: Meta-Analysis & Result Interpretation</h3>
                     </div>
                     <div class="p-6">
                         <ul class="space-y-3">
@@ -328,21 +334,27 @@
                 <div class="w-24 h-1 bg-indigo-600 mx-auto"></div>
             </div>
 
-            <div class="grid md:grid-cols-3 gap-10">
+            <div class="grid md:grid-cols-3 gap-6 px-[10rem]">
 
-                 <!-- Speaker 1 -->
-                 <div class="bg-white rounded-xl overflow-hidden shadow-md speaker-card transition duration-500">
+                <!-- Speaker 1 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-md speaker-card transition duration-500">
                     <div class="overflow-hidden">
-                        <img src="assets/img/profiles/4.png"
-                            alt="Dr. Priya Patel" class="w-full h-full object-cover">
+                        <img src="assets/img/profiles/4.png" alt="Dr. Priya Patel" class="w-full h-full object-cover">
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-bold mb-1">Prof. Delna N S</h3>
+<<<<<<< HEAD
                         <p class="text-indigo-600 font-medium mb-3">Director and Founder of BioDeskINDIA Labs</p>
                         <p class="text-gray-600 mb-4"> <span style="font-weight: bold;">Head of the Department- Allied Health Sciences  </span> <br>
                             Al-Azar Medical College and Super Speciality Hospital </p>
+=======
+                        <p class="text-indigo-600 font-medium mb-3">Director and Founder BioDeskINDIA Labs</p>
+                        <p class="text-gray-600 mb-4">HOD- Department of Allied Health Sciences, Al-Azhar Medical
+                            College and Super Speciality Hospital </p>
+>>>>>>> a700a21813742d82329f0a9a5c774d650672e374
                         <div class="flex space-x-4">
-                            <a href="https://www.linkedin.com/in/delna-ns-a8183215a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="text-blue-500 hover:text-blue-700">
+                            <a href="https://www.linkedin.com/in/delna-ns-a8183215a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                                class="text-blue-500 hover:text-blue-700">
                                 <i class="fab fa-linkedin text-xl"></i>
                             </a>
                             <a href="https://www.instagram.com/delna.ns/" target="_blank">
@@ -355,17 +367,24 @@
                 <!-- Speaker 2 -->
                 <div class="bg-white rounded-xl overflow-hidden shadow-md speaker-card transition duration-500">
                     <div class="overflow-hidden">
-                        <img src="assets/img/profiles/1.png"
-                            alt="Dr. Sarah Johnson" class="w-full h-full object-cover">
+                        <img src="assets/img/profiles/1.png" alt="Dr. Sarah Johnson" class="w-full h-full object-cover">
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-bold mb-1">Akshay V P
                         </h3>
+<<<<<<< HEAD
                         <p class="text-indigo-600 font-medium mb-3">Co- Founder of BioDesk Research Ecosystem
                         </p>
                         <p class="text-gray-600 mb-4" style="font-weight: bold;">Managing Editor at Library of Sciences Journal</p>
+=======
+                        <p class="text-indigo-600 font-medium mb-3">Research Coordinator
+                            BioDeskINDIA Labs</p>
+                        <p class="text-gray-600 mb-4">With over 50 published systematic reviews, Dr. Johnson is a
+                            leading expert in evidence synthesis methods.</p>
+>>>>>>> a700a21813742d82329f0a9a5c774d650672e374
                         <div class="flex space-x-4">
-                            <a href="https://www.linkedin.com/in/akshay-v-p-bb414624a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="text-blue-500 hover:text-blue-700">
+                            <a href="https://www.linkedin.com/in/akshay-v-p-bb414624a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                                class="text-blue-500 hover:text-blue-700">
                                 <i class="fab fa-linkedin text-xl"></i>
                             </a>
                             <a href="https://www.instagram.com/akshay_aks_s/" target="_blank">
@@ -375,20 +394,26 @@
                     </div>
                 </div>
 
-                
+
                 <!-- Speaker 3 -->
                 <div class="bg-white rounded-xl overflow-hidden shadow-md speaker-card transition duration-500">
                     <div class="overflow-hidden">
-                        <img src="assets/img/profiles/3.png"
-                            alt="Dr. Priya Patel" class="w-full h-full object-cover">
+                        <img src="assets/img/profiles/3.png" alt="Dr. Priya Patel" class="w-full h-full object-cover">
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-bold mb-1">Dr Bhavit Bansal </h3>
                         <p class="text-indigo-600 font-medium mb-3">Senior Research Fellow</p>
+<<<<<<< HEAD
                         <p class="text-gray-600 mb-4"><span style="font-weight: bold;">Central Council for Research in Yoga & Naturopathy</span>
                             Ministry of Ayush, Govt of India</p>
+=======
+                        <p class="text-gray-600 mb-4">Dr. Bhavit Bansal is a dynamic and multi-disciplinary health
+                            professional with a strong academic foundation in Yoga, Naturopathy, Integrative Medicine,
+                            and Neurosciences.</p>
+>>>>>>> a700a21813742d82329f0a9a5c774d650672e374
                         <div class="flex space-x-4">
-                            <a href="https://www.linkedin.com/in/dr-bhavit-bansal-655011133?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="text-blue-500 hover:text-blue-700">
+                            <a href="https://www.linkedin.com/in/dr-bhavit-bansal-655011133?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                                class="text-blue-500 hover:text-blue-700">
                                 <i class="fab fa-linkedin text-xl"></i>
                             </a>
                             <a href="https://www.instagram.com/drbhavitbansal/" target="_blank">
@@ -397,12 +422,11 @@
                         </div>
                     </div>
                 </div>
-               
+
                 <!-- Speaker 4 -->
                 <div class="bg-white rounded-xl overflow-hidden shadow-md speaker-card transition duration-500">
                     <div class="overflow-hidden">
-                        <img src="assets/img/profiles/5.png"
-                            alt="Dr. Priya Patel" class="w-full h-full object-cover">
+                        <img src="assets/img/profiles/5.png" alt="Dr. Priya Patel" class="w-full h-full object-cover">
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-bold mb-1">Dr. Priya Patel</h3>
@@ -423,16 +447,23 @@
                 <!-- Speaker 5 -->
                 <div class="h-42 bg-white rounded-xl overflow-hidden shadow-md speaker-card transition duration-500">
                     <div class="overflow-hidden">
-                        <img src="assets/img/profiles/2.png"
-                            alt="Dr. Michael Chen" class="w-full h-full object-cover">
+                        <img src="assets/img/profiles/2.png" alt="Dr. Michael Chen" class="w-full h-full object-cover">
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-bold mb-1">Shubrith Shrivastava
                         </h3>
+<<<<<<< HEAD
                         <p class="text-indigo-600 font-medium mb-3">Clinical Research Coordinator at BioDeskINDIA Labs
 
                             </p>
                         <p class="text-gray-600 mb-4">Managing Editor at Library of Sciences journal</p>
+=======
+                        <p class="text-indigo-600 font-medium mb-3">Research Coordinator
+                            BioDeskINDIA Labs
+                        </p>
+                        <p class="text-gray-600 mb-4">Specializing in advanced statistical methods for meta-analysis
+                            with expertise in R and Stata programming.</p>
+>>>>>>> a700a21813742d82329f0a9a5c774d650672e374
                         <div class="flex space-x-4">
                             <a href="#" class="text-blue-500 hover:text-blue-700">
                                 <i class="fab fa-linkedin text-xl"></i>
@@ -443,6 +474,55 @@
                         </div>
                     </div>
                 </div>
+
+
+                <!-- Speaker 6 -->
+                <div class="h-42 bg-white rounded-xl overflow-hidden shadow-md speaker-card transition duration-500">
+                    <div class="overflow-hidden">
+                        <img src="assets/img/profiles/6.png" alt="Dr. Michael Chen" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">Lavudya Saiprashanth
+                        </h3>
+                        <p class="text-indigo-600 font-medium mb-3">Research Coordinator at BiodeskINDIA Labs
+                        </p>
+                        <p class="text-gray-600 mb-4">Currently pursuing a master’s degree in Biotechnology
+                            specialization in Medicinal Plants and Phytotherapy (Twinning Program) Franco-Indian Health
+                            Campus (ILIADE).</p>
+                        <div class="flex space-x-4">
+                            <a href="https://www.linkedin.com/in/lavudya-saiprashanth-202b77328?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                                class="text-blue-500 hover:text-blue-700">
+                                <i class="fab fa-linkedin text-xl"></i>
+                            </a>
+                            <!-- <a href="https://instagram.com/yourusername" target="_blank">
+                                <i class="fab fa-instagram text-xl" style="color: #E4405F;"></i>
+                            </a> -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Speaker 7 -->
+                <div class="h-42 bg-white rounded-xl overflow-hidden shadow-md speaker-card transition duration-500">
+                    <div class="overflow-hidden">
+                        <img src="assets/img/profiles/7.png" alt="Dr. Michael Chen" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">Sai Shashank Gudla
+                        </h3>
+                        <p class="text-indigo-600 font-medium mb-3">Research Coordinator at BiodeskINDIA Labs
+                        </p>
+                        <p class="text-gray-600 mb-4">Doctor of Pharmacy student at GIET School of Pharmacy,
+                            Rajahmundry, with a strong academic record and a passion for community service and rural
+                            healthcare.</p>
+                        <div class="flex space-x-4">
+                            <a href="http://www.linkedin.com/in/sai-shashank-gudla">
+                                <i class="fab fa-linkedin text-xl"></i>
+                            </a>
+                            <!-- <a href="https://instagram.com/yourusername" target="_blank">
+                                <i class="fab fa-instagram text-xl" style="color: #E4405F;"></i>
+                            </a> -->
+                        </div>
+                    </div>
+                </div>
+
 
             </div>
         </div>
@@ -467,7 +547,9 @@
                             <li class="text-lg font-semibold">For Indian researchers: ₹859/-</li>
                             <li class="text-lg font-semibold">International researchers: $10</li>
                         </ul>
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeuVkfTJDpSVfsJTPuuGDPNhcYl4F7pdqRUoL1yZANW7cYtvg/viewform?usp=sharing" class="gradient-bg hover:opacity-90 text-white font-bold py-3 px-4 rounded-full transition duration-300">Register Now</a>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeuVkfTJDpSVfsJTPuuGDPNhcYl4F7pdqRUoL1yZANW7cYtvg/viewform?usp=sharing"
+                            class="gradient-bg hover:opacity-90 text-white font-bold py-3 px-4 rounded-full transition duration-300">Register
+                            Now</a>
                     </div>
                 </div>
 
@@ -482,7 +564,9 @@
                             <li class="text-lg font-semibold">For Indian researchers: ₹1299/-</li>
                             <li class="text-lg font-semibold">International researchers: $15</li>
                         </ul>
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeuVkfTJDpSVfsJTPuuGDPNhcYl4F7pdqRUoL1yZANW7cYtvg/viewform?usp=sharing" class="gradient-bg hover:opacity-90 text-white font-bold py-3 px-4 rounded-full transition duration-300">Register Now</a>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeuVkfTJDpSVfsJTPuuGDPNhcYl4F7pdqRUoL1yZANW7cYtvg/viewform?usp=sharing"
+                            class="gradient-bg hover:opacity-90 text-white font-bold py-3 px-4 rounded-full transition duration-300">Register
+                            Now</a>
                     </div>
                 </div>
             </div>
@@ -497,76 +581,89 @@
     <!-- Testimonials -->
     <section class="py-16 bg-gray-50">
         <div class="container mx-auto px-6">
-            <div class="text-center mb-16">
+            <div class="text-center mb-10">
                 <h2 class="text-3xl font-bold text-gray-800 mb-4">What Participants Say</h2>
                 <div class="w-24 h-1 bg-indigo-600 mx-auto"></div>
             </div>
 
-            <div class="grid md:grid-cols-3 gap-8">
-                <div class="bg-white p-8 rounded-xl shadow-md">
-                    <div class="flex items-center mb-4">
-                        <div class="text-yellow-400 mr-2">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                    </div>
-                    <p class="text-gray-600 mb-6">"This workshop transformed my approach to research. I published my
-                        first systematic review within 3 months of completing the course!"</p>
-                    <div class="flex items-center">
-                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80"
-                            alt="Emma S." class="w-12 h-12 rounded-full mr-4 object-cover">
-                        <div>
-                            <h4 class="font-bold">Emma S.</h4>
-                            <p class="text-gray-500 text-sm">PhD Candidate, Public Health</p>
-                        </div>
-                    </div>
-                </div>
+            <div class="swiper mySwiper py-12">
+                <div class="swiper-wrapper">
 
-                <div class="bg-white p-8 rounded-xl shadow-md">
-                    <div class="flex items-center mb-4">
-                        <div class="text-yellow-400 mr-2">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
+                    <!-- Testimonial 1 -->
+                    <div class="swiper-slide bg-white p-8 rounded-xl shadow-md">
+                        <div class="text-yellow-400 mb-2">★★★★★</div>
+                        <p class="text-gray-600 mb-6">"I joined the workshop with zero experience. Now, I confidently
+                            design and conduct systematic reviews for my PhD work!"</p>
+                        <div class="flex items-center">
+                            <img src="https://randomuser.me/api/portraits/women/67.jpg" alt="Anjali R."
+                                class="w-12 h-12 rounded-full mr-4 object-cover">
+                            <div>
+                                <h4 class="font-bold">Anjali R.</h4>
+                                <p class="text-gray-500 text-sm">PhD Scholar, Chennai</p>
+                            </div>
                         </div>
                     </div>
-                    <p class="text-gray-600 mb-6">"The hands-on approach with real datasets was invaluable. The
-                        instructors were incredibly knowledgeable and supportive throughout."</p>
-                    <div class="flex items-center">
-                        <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80"
-                            alt="David L." class="w-12 h-12 rounded-full mr-4 object-cover">
-                        <div>
-                            <h4 class="font-bold">David L.</h4>
-                            <p class="text-gray-500 text-sm">Medical Resident</p>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="bg-white p-8 rounded-xl shadow-md">
-                    <div class="flex items-center mb-4">
-                        <div class="text-yellow-400 mr-2">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
+                    <!-- Testimonial 2 -->
+                    <div class="swiper-slide bg-white p-8 rounded-xl shadow-md">
+                        <div class="text-yellow-400 mb-2">★★★★★</div>
+                        <p class="text-gray-600 mb-6">"The examples, tools, and explanation of RevMan and PRISMA were
+                            spot on. Highly recommend it for junior researchers."</p>
+                        <div class="flex items-center">
+                            <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Rahul M."
+                                class="w-12 h-12 rounded-full mr-4 object-cover">
+                            <div>
+                                <h4 class="font-bold">Rahul M.</h4>
+                                <p class="text-gray-500 text-sm">JRF, Delhi</p>
+                            </div>
                         </div>
                     </div>
-                    <p class="text-gray-600 mb-6">"As a beginner, I appreciated how the content was structured from
-                        basic to advanced concepts. The R programming sessions were particularly helpful."</p>
-                    <div class="flex items-center">
-                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80"
-                            alt="Priya K." class="w-12 h-12 rounded-full mr-4 object-cover">
-                        <div>
-                            <h4 class="font-bold">Priya K.</h4>
-                            <p class="text-gray-500 text-sm">Research Assistant</p>
+
+                    <!-- Testimonial 3 -->
+                    <div class="swiper-slide bg-white p-8 rounded-xl shadow-md">
+                        <div class="text-yellow-400 mb-2">★★★★☆</div>
+                        <p class="text-gray-600 mb-6">"As a beginner, I loved how each day covered hands-on activities.
+                            The R coding session was particularly helpful."</p>
+                        <div class="flex items-center">
+                            <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Neha T."
+                                class="w-12 h-12 rounded-full mr-4 object-cover">
+                            <div>
+                                <h4 class="font-bold">Neha T.</h4>
+                                <p class="text-gray-500 text-sm">MPH Student, Mumbai</p>
+                            </div>
                         </div>
                     </div>
+
+                    <!-- Testimonial 4 -->
+                    <div class="swiper-slide bg-white p-8 rounded-xl shadow-md">
+                        <div class="text-yellow-400 mb-2">★★★★★</div>
+                        <p class="text-gray-600 mb-6">"This was my first exposure to meta-analysis. The structure,
+                            mentorship and live sessions exceeded expectations."</p>
+                        <div class="flex items-center">
+                            <img src="https://randomuser.me/api/portraits/men/27.jpg" alt="Deepak S."
+                                class="w-12 h-12 rounded-full mr-4 object-cover">
+                            <div>
+                                <h4 class="font-bold">Deepak S.</h4>
+                                <p class="text-gray-500 text-sm">PG Student, Kerala</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 5 -->
+                    <div class="swiper-slide bg-white p-8 rounded-xl shadow-md">
+                        <div class="text-yellow-400 mb-2">★★★★★</div>
+                        <p class="text-gray-600 mb-6">"Well-organized, interactive and practical. I gained more
+                            confidence writing my review paper and handling Rayyan."</p>
+                        <div class="flex items-center">
+                            <img src="https://randomuser.me/api/portraits/men/66.jpg" alt="Manoj K."
+                                class="w-12 h-12 rounded-full mr-4 object-cover">
+                            <div>
+                                <h4 class="font-bold">Manoj K.</h4>
+                                <p class="text-gray-500 text-sm">Assistant Professor, Kochi</p>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -584,79 +681,84 @@
                     class="bg-white text-indigo-600 hover:bg-indigo-100 px-8 py-4 rounded-full font-bold text-lg transition duration-300 shadow-lg">
                     <i class="fas fa-user-plus mr-2"></i> Register Now
                 </a>
-                <a href="https://wa.me/+918606009853" target="_blank" class="border-2 border-white text-white hover:bg-white hover:text-indigo-600 px-8 py-4 rounded-full font-bold text-lg transition duration-300 shadow-lg">
+                <a href="https://wa.me/+918606009853" target="_blank"
+                    class="border-2 border-white text-white hover:bg-white hover:text-indigo-600 px-8 py-4 rounded-full font-bold text-lg transition duration-300 shadow-lg">
                     <i class="fas fa-question-circle mr-2"></i> Have Questions?
                 </a>
             </div>
         </div>
     </section>
 
-<!-- Footer -->
-<footer class="bg-gray-900 text-white py-12">
-    <div class="container mx-auto px-6">
-        <!-- Add inline gap -->
-        <div class="grid md:grid-cols-3" style="gap: 4rem;">
-            <!-- Logo & description -->
-            <div style="padding-right: 20px;">
-                <div class="flex items-center space-x-2 mb-4">
-                    <a href="index.html" class="hover:text-indigo-200 font-medium"><img src="assets/img/logo/logo4-removebg-preview.png" alt="" style="width: 60%;"></a>
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6">
+            <!-- Add inline gap -->
+            <div class="grid md:grid-cols-3" style="gap: 4rem;">
+                <!-- Logo & description -->
+                <div style="padding-right: 20px;">
+                    <div class="flex items-center space-x-2 mb-4">
+                        <a href="index.html" class="hover:text-indigo-200 font-medium"><img
+                                src="assets/img/logo/logo4-removebg-preview.png" alt="" style="width: 60%;"></a>
+                    </div>
+                    <p class="text-gray-400">
+                        Hands-on 3-Day Online Workshop Organized by BioDeskINDIA Research Ecosystem.
+                    </p>
+                    <div class="flex space-x-4 mt-6">
+                        <a href="https://twitter.com/" target="_blank" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-twitter text-xl"></i>
+                        </a>
+                        <a href="https://linkedin.com/" target="_blank" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-linkedin text-xl"></i>
+                        </a>
+                        <a href="https://instagram.com/yourusername" target="_blank"
+                            class="text-gray-400 hover:text-white">
+                            <i class="fab fa-instagram text-xl"></i>
+                        </a>
+                        <a href="https://wa.me/+918606009853" target="_blank" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-whatsapp text-xl"></i>
+                        </a>
+                    </div>
                 </div>
-                <p class="text-gray-400">
-                    Hands-on 3-Day Online Workshop Organized by BioDeskINDIA Research Ecosystem.
-                </p>
-                <div class="flex space-x-4 mt-6">
-                    <a href="https://twitter.com/" target="_blank" class="text-gray-400 hover:text-white">
-                        <i class="fab fa-twitter text-xl"></i>
-                    </a>
-                    <a href="https://linkedin.com/" target="_blank" class="text-gray-400 hover:text-white">
-                        <i class="fab fa-linkedin text-xl"></i>
-                    </a>
-                    <a href="https://instagram.com/yourusername" target="_blank" class="text-gray-400 hover:text-white">
-                        <i class="fab fa-instagram text-xl"></i>
-                    </a>
-                    <a href="https://wa.me/+918606009853" target="_blank" class="text-gray-400 hover:text-white">
-                        <i class="fab fa-whatsapp text-xl"></i>
-                    </a>
+
+                <!-- Quick Links -->
+                <div style="padding-right: 20px;">
+                    <h3 class="text-lg font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white">Home</a></li>
+                        <li><a href="#about-us" class="text-gray-400 hover:text-white">About</a></li>
+                        <li><a href="#curriculum" class="text-gray-400 hover:text-white">Curriculum</a></li>
+                        <li><a href="#fees" class="text-gray-400 hover:text-white">Plans</a></li>
+                        <li><a href="https://wa.me/+918606009853" target="_blank"
+                                class="text-gray-400 hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Us -->
+                <div style="padding-right: 20px;">
+                    <h3 class="text-lg font-bold mb-4">Contact Us</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-3"></i>
+                            <span>Flat No: S-03 (A- Block) Balaji Parisar phase-1<br>Ayodhya Bypass Road Bhopal Madhya
+                                Pradesh</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-envelope mt-1 mr-3"></i>
+                            <span>info@biodeskindia.com</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-phone-alt mt-1 mr-3"></i>
+                            <span>+91 8606009853</span>
+                        </li>
+                    </ul>
                 </div>
             </div>
 
-            <!-- Quick Links -->
-            <div style="padding-right: 20px;">
-                <h3 class="text-lg font-bold mb-4">Quick Links</h3>
-                <ul class="space-y-2">
-                    <li><a href="index.html" class="text-gray-400 hover:text-white">Home</a></li>
-                    <li><a href="#about-us" class="text-gray-400 hover:text-white">About</a></li>
-                    <li><a href="#curriculum" class="text-gray-400 hover:text-white">Curriculum</a></li>
-                    <li><a href="#fees" class="text-gray-400 hover:text-white">Plans</a></li>
-                    <li><a href="https://wa.me/+918606009853" target="_blank" class="text-gray-400 hover:text-white">Contact</a></li>
-                </ul>
-            </div>
-
-            <!-- Contact Us -->
-            <div style="padding-right: 20px;">
-                <h3 class="text-lg font-bold mb-4">Contact Us</h3>
-                <ul class="space-y-2 text-gray-400">
-                    <li class="flex items-start">
-                        <i class="fas fa-map-marker-alt mt-1 mr-3"></i>
-                        <span>Flat No: S-03 (A- Block) Balaji Parisar phase-1<br>Ayodhya Bypass Road Bhopal Madhya Pradesh</span>
-                    </li>
-                    <li class="flex items-start">
-                        <i class="fas fa-envelope mt-1 mr-3"></i>
-                        <span>info@biodeskindia.com</span>
-                    </li>
-                    <li class="flex items-start">
-                        <i class="fas fa-phone-alt mt-1 mr-3"></i>
-                        <span>+91 8606009853</span>
-                    </li>
-                </ul>
+            <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 Biodesk. All rights reserved.</p>
             </div>
         </div>
-
-        <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 Biodesk. All rights reserved.</p>
-        </div>
-    </div>
-</footer>
+    </footer>
 
 
     <script>
@@ -689,6 +791,26 @@
                     });
                 });
             });
+        });
+    </script>
+    <!-- SwiperJS Script -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 20,
+            loop: true,
+            autoplay: {
+                delay: 5000,
+            },
+            breakpoints: {
+                768: {
+                    slidesPerView: 2,
+                },
+                1024: {
+                    slidesPerView: 3,
+                }
+            }
         });
     </script>
 </body>
